@@ -1,0 +1,62 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv
+*.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and cache
+logs/
+*.log
+*.cache
+*.dat
+*.tmp
+
+# Ignore database files (if applicable)
+*.sqlite
+*.db
+
+# Ignore TensorFlow and PyTorch model files
+*.h5
+*.ckpt
+*.pth
+
+# Ignore Power BI / Tableau files (if exported)
+*.pbix
+*.twb
+*.twbx
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+
+# Ignore dependency management files
+pip-log.txt
+requirements.lock
+
+# Ignore Docker artifacts
+docker-compose.override.yml
+*.container
+
+# Ignore unnecessary deployment artifacts
+deployment/
+node_modules/
+dist/
+build/
+
+# Ignore secrets (important for security)
+config.yaml
+.env
